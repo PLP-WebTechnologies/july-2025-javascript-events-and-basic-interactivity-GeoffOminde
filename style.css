@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  padding: 1rem;
+  background-color: #fff;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-theme {
+  background-color: #111;
+  color: #eee;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+}
